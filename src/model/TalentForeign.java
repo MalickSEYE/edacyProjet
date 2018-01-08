@@ -20,7 +20,7 @@ public class TalentForeign  extends Talent{
 		}
 		public void print()
 		{
-			System.out.println("le talent est " + getNom()+ " "+ getPrenom() + ", il est " + getNiveau() + " année, son specialite est "+ getCours() + "et son pays d'origine est "+getPaysOrigine());
+			System.out.println( super.toString() + "et son pays d'origine est "+getPaysOrigine());
 		}
 		
 }
